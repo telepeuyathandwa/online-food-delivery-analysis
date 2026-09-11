@@ -16,20 +16,6 @@ Connection - Railway CLI SSH tunnel
 Visualization - Power BI Desktop 
 Environment - GitHub Codespaces 
 
-
-## Project Structure
-
-online-food-delivery-analysis/
-├── raw/ # Original + cleaned CSV
-├── notebooks/ # Jupyter notebooks
-├── powerbi/ # .pbix file + screenshots
-│ └── screenshots/
-├── clean.py # Data cleaning script
-├── explore.py # Quick EDA script
-├── upload.py # Upload CSV → Postgres
-├── requirements.txt
-└── README.md
-
 Pipeline
 
 1. Clean — drop junk columns, strip whitespace, standardize categories
